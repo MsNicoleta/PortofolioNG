@@ -31,5 +31,18 @@
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.3"
+  },
+  "resolutions": {
+    "chalk": "2.4.2",
+    "ansi-styles": "3.2.1",
+    "supports-color": "7.2.0",
+    "color-convert": "2.0.1",
+    "color-name": "1.1.4",
+    "has-flag": "4.0.0",
+    "msgpackr": "1.9.8",
+    "node-addon-api": "7.0.0",
+    "node-gyp-build-optional-packages": "5.0.7",
+    "posthtml-parser": "0.11.0",
+    "entities": "3.0.1"
   }
 }
