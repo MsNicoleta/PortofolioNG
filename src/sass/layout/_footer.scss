@@ -1,7 +1,7 @@
 .footer {
   background-color: $dark-grey;
   color: $white-color;
-  padding: 4.8rem 0;
+  padding: 3rem 0;
 
   @include respond(phone) {
     border: 0px;
@@ -27,12 +27,7 @@
     }
   }
 
-  & hr {
-    margin: 1rem auto;
-    border: 0;
-    width: 50%;
-    border-top: 2px solid grey;
-  }
+
 }
 
 .social-links {
@@ -47,22 +42,12 @@
     color: $white-color;
     font-size: 3rem;
     width: 5rem;
-    height: 5rem;
+    height: 1rem;
     margin: $default-font-size $default-font-size;
     transition: all 0.2s ease-in;
 
     &:hover {
       transform: translateY(-2px);
     }
-  }
-}
-
-.back-to-top i {
-  color: $white-color;
-  margin: 1rem 0 $default-font-size;
-  transition: all 0.2s ease-in;
-
-  &:hover {
-    transform: translateY(-2px);
   }
 }

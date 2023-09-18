@@ -17,7 +17,7 @@
     }
 
     .row {
-      margin-bottom: 8rem;
+
 
       @include respond(phone) {
         margin-bottom: 4rem;
@@ -50,8 +50,11 @@
     }
 
     &__image {
-      width: 90%;
-      margin: 0 auto;
+        width: 90%;
+        height: 90%;
+        margin: 6% auto;
+
+
 
       @include respond(tab-land) {
         width: 100%;
@@ -74,5 +77,13 @@
         }
       }
     }
+  }
+  & hr {
+    margin: 5rem auto;
+    border: 0;
+    width: 100%;
+    border-top: 1px solid rgb(11, 83, 0);
+    backface-visibility: hidden;
+
   }
 }
