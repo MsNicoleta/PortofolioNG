@@ -78,12 +78,19 @@
       }
     }
   }
-  & hr {
+   #h-line {
     margin: 5rem auto;
-    border: 0;
+    border:1;
     width: 100%;
-    border-top: 1px solid rgb(11, 83, 0);
-    backface-visibility: hidden;
+    border-top: 1.5px solid rgb(11, 83, 0);
 
   }
+    hr {
+      color: inherit;
+      border: 0;
+      border-top: var(--bs-border-width) solid;
+      opacity: 100;
+      margin: 1rem 0;
+  }
+
 }
