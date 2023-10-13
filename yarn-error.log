@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/ng/1Self-WebDev/ZeroToMastery/Complete-Dev-2023/simplefolio/node_modules/caniuse-lite/package.json'
+  Error: EACCES: permission denied, unlink '/Users/ng/1Self-WebDev/ZeroToMastery/Complete-Dev-2023/simplefolio/node_modules/caniuse-lite/LICENSE'
 
 npm manifest: 
   {
